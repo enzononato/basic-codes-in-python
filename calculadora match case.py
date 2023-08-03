@@ -16,7 +16,7 @@ def calculadora(num1, num2, operador):
             return 'operação inválida'
 
 
-print ("Escolha 2 números:")
+print ("Escolha 2 números: ")
 n1 = float(input())
 n2 = float(input())
 print("Agora escolha a operação desejada: ")
