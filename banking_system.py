@@ -39,12 +39,13 @@ while True:
 
     elif opcao == '2':
         os.system('cls')
+        print(f'\nSALDO = {saldo}\n')
         valorSaque = float(input("Informe o valor do saque: "))
         if valorSaque > limite:
             print("\nO valor do seu saque não pode exceder R$ 500,00\n")
-        if valorSaque > saldo:
+        elif valorSaque > saldo:
             print("Você não pode sacar um valor maior que o seu saldo")
-        if valorSaque <= limite and valorSaque > 0 and numero_saques < 3 and valorSaque < saldo:
+        elif valorSaque <= limite and valorSaque > 0 and numero_saques < 3 and valorSaque < saldo:
             saldo-=valorSaque
             extrato += '\nSAQUE -> R$'+str(valorSaque)
             numero_saques += 1
@@ -65,4 +66,4 @@ while True:
     else:
         os.system('cls')
         print('Opção inválida tente novamente...')    
-        time.sleep(2)
+        time.sleep(1)
