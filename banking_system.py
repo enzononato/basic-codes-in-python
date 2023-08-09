@@ -13,10 +13,10 @@ numero_saques = 0
 menu = """
 ========== MENU ===========
 
-[d] Depositar
-[s] Sacar
-[e] Extrato
-[s] Sair
+[1] Depositar
+[2] Sacar
+[3] Extrato
+[0] Sair
 
 """
 
