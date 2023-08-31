@@ -17,8 +17,8 @@ def calculadora(num1, num2, operador):
 
 
 print ("Escolha 2 números: ")
-n1 = float(input())
-n2 = float(input())
+n1 = float(input("O 1º número: "))
+n2 = float(input("O 2º número: "))
 print("Agora escolha a operação desejada: ")
 operacao = str(input())
 
