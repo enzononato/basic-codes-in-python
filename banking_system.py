@@ -97,9 +97,7 @@ def cadastrar_usuário():
 
         clientes.update({cpf : {"nome":nome, "data de nascimento":data_nascimento, "logradouro":logradouro, "numero":numero, "bairro":bairro, "cidade":cidade, "estado":estado}})
 
-    print(clientes)
-    print(clientes.keys())
-    time.sleep(2)
+    time.sleep(1)
 
 
 while True:
